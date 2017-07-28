@@ -1,0 +1,97 @@
+// Background
+.u-bg {
+  &--blue {
+    background: $blue;
+  }
+  &--darkgrey {
+    background: $pink-light;
+  }
+}
+// Position
+.u-absolute {
+  position: absolute;
+}
+
+.u-relative {
+  position: relative;
+}
+
+.u-center {
+  text-align: center;
+}
+
+
+// Input
+.u-input {
+  padding: 0.75rem 0;
+  width: 60%;
+  outline: none;
+  color: $blue;
+  background: $transparent;
+  border: 2px solid $blue;
+  font-family: $type-sans;
+  color: $blue;
+  padding-left: 1rem;
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+  line-height: 2rem;
+  text-transform: uppercase;
+  margin-right: 1rem;
+}
+
+.btn {
+  padding: 0.75rem 2rem;
+  background: $transparent;
+  border: 2px solid $blue;
+  outline: none;
+  color: $blue;
+  font-family: $type-sans;
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+  line-height: 2rem;
+  text-transform: uppercase;
+  &:hover {
+    background: $pink-light;
+    transition: all 1s ease;
+  }
+}
+
+.u-underline {
+  border-bottom: 2px solid $blue;
+}
+
+.title {
+  top: 2rem;
+  padding: .5rem;
+}
+
+.u-flex--sb {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.nav-link {
+  margin-right: 3rem;
+  &:last-child {
+    margin-right: none;
+  }
+}
+.footer-link {
+  margin-right: 1rem;
+  &:last-child {
+    margin-right: none;
+  }
+}
+
+.f1, .f2, .f3, .f4, .f5, .f6, a {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.f2 {
+  line-height: 2rem;
+}
+
+.flex {
+  display: flex;
+}

@@ -1,0 +1,23 @@
+// $content-width: 58.75rem;
+$content-width: 60rem;
+
+.content {
+  @include clearfix;
+  margin: 0 auto;
+  max-width: $content-width;
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
+  width: 100%;
+}
+
+@media screen and (max-width: $phone-landscape-max) {
+  .content {
+    padding: 0;
+    width: 100%;
+  }
+
+  section {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+}
